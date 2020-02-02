@@ -1,0 +1,1109 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0);
+  overflow: hidden;
+}
+
+#page1 header {
+  background-color: #B9DDE7;
+  background-repeat: no-repeat;
+}
+
+#page2 header {
+  background-image: url("../harper-assets/blog-image-1.jpg");
+  background-repeat: no-repeat;
+  height: 666px;
+}
+
+#page3 header {
+  background-image: url("../harper-assets/contact-image-1.jpg");
+  background-repeat: no-repeat;
+}
+
+ul li {
+  padding: 5px 25px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 29px;
+  letter-spacing: 1px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: #F6F6F6;
+  color: #171717;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 30%;
+}
+
+.navWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 0px;
+  width: 100%;
+  background-color: #B9DDE7;
+}
+
+.navWrapper li:nth-child(3) a {
+  font-size: 2rem;
+}
+
+.harperPhoto {
+  -webkit-box-shadow: 15px 15px 0px 0px white;
+          box-shadow: 15px 15px 0px 0px white;
+  width: 30%;
+  margin: 0 5% 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.harperFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #B9DDE7;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 8rem;
+}
+
+.h1Text {
+  position: relative;
+}
+
+#page2 h1,
+#page3 h1 {
+  font-size: 4rem;
+  margin-top: 263px;
+  margin-left: 10%;
+}
+
+.circleText {
+  position: absolute;
+  top: 70px;
+  right: -11%;
+  width: 35%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.mainWrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: #171717;
+}
+
+ul a:hover {
+  color: #F6F6F6;
+}
+
+p {
+  font-family: "Cabin", sans-serif;
+  line-height: 32px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#whosHarper,
+.information,
+.harpersJourney {
+  background-color: #F6F6F6;
+}
+
+.information p {
+  line-height: 25px;
+}
+
+.harpersJourney {
+  margin-top: -20px;
+}
+
+.whoIsHarper {
+  width: 50%;
+  float: right;
+  margin: -10px 3% 90px 0;
+}
+
+.whoIsHarper button {
+  margin-top: 20px;
+}
+
+.bannerPhoto {
+  width: 100%;
+  margin-top: -81px;
+  display: block;
+  background-color: #F6F6F6;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+button {
+  background-color: #F38D8D;
+  border: none;
+  padding: 1% 4%;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin-top: 15px;
+}
+
+.information {
+  padding: 0 50px 5% 50px;
+  margin-bottom: -40px;
+}
+
+.information a {
+  text-decoration: none;
+  color: #171717;
+  font-size: 1.3rem;
+}
+
+.information i {
+  padding: 13px;
+  background-color: #B9DDE7;
+  border-radius: 50%;
+}
+
+.flexParentPhotosAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4%;
+}
+
+.photosMiniSection,
+.aboutMiniSection,
+.blogMiniSection,
+.contactMiniSection {
+  -ms-flex-preferred-size: 47%;
+      flex-basis: 47%;
+}
+
+.photosMiniSection p,
+.aboutMiniSection p,
+.blogMiniSection p,
+.contactMiniSection p {
+  padding-left: 13%;
+}
+
+.space {
+  padding-top: 30px;
+}
+
+.surfers {
+  width: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 100%;
+  margin-left: 134px;
+  margin-bottom: 150px;
+  -webkit-box-shadow: 10px 20px 0px 4px #68b0c1, -149px 20px 0px 4px #68b0c1;
+          box-shadow: 10px 20px 0px 4px #68b0c1, -149px 20px 0px 4px #68b0c1;
+}
+
+.favourite {
+  margin-top: -135px;
+}
+
+.favouriteImage {
+  width: 2500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 100%;
+  -webkit-box-shadow: 200px 88px 0px -64px #b9dde7, 90px 88px 0px -64px #b9dde7;
+          box-shadow: 200px 88px 0px -64px #b9dde7, 90px 88px 0px -64px #b9dde7;
+  margin-right: 134px;
+}
+
+.h3FlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.h3FlexParent h3 {
+  margin: 5px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+}
+
+.harpersTravels h3,
+.favourite h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.harpersJourney h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.travelFlexParent1,
+.journeyFlexParent1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.travelFlexParent2,
+.journeyFlexParent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.travelFlexParent2 {
+  margin: 75px 5%;
+}
+
+.travelFlexParent2 h3 {
+  margin-bottom: 0;
+}
+
+.travelFlexParent2 p,
+.favouriteContentFlexParent p {
+  line-height: 25px;
+}
+
+.travelFlexParent2 h3,
+.favouriteContentFlexParent h3 {
+  letter-spacing: 0.1rem;
+}
+
+.journeyFlexParent2 {
+  width: 70%;
+  margin: 50px 10% 50px 0;
+}
+
+.journeyPhoto {
+  width: 30%;
+  margin: 100px 10%;
+  -webkit-box-shadow: 15px 15px 0px 0px #227284;
+          box-shadow: 15px 15px 0px 0px #227284;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.favouriteFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.favouriteContentFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10% 5% 5%;
+}
+
+.favButton {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.galleryFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0 6%;
+}
+
+.galleryFlexParent ul {
+  padding: 0;
+}
+
+.gallery ul li {
+  padding: 80px 2%;
+}
+
+#page2 main,
+#page3 main {
+  background-color: #F6F6F6;
+}
+
+#page2 main {
+  margin-top: -266px;
+  padding-top: 80px;
+}
+
+#page2 h3,
+#page2 h4 {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+}
+
+#page2 h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+#page2 h4 {
+  font-size: 1.25rem;
+}
+
+.blogFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article {
+  margin-bottom: 5%;
+  padding: 3% 5% 10% 5%;
+}
+
+article,
+.guestBlogs {
+  border-bottom: 5px solid #227284;
+}
+
+.harperInfo,
+.recentPosts,
+article,
+.maggieFlex,
+.daisyFlex {
+  background-color: white;
+}
+
+.harperInfo,
+.recentPosts {
+  padding: 10%;
+}
+
+.recentPosts h4 {
+  margin-top: 0;
+}
+
+.harperInfo {
+  margin-bottom: 10%;
+}
+
+.harperEtc a {
+  text-decoration: none;
+  color: #227284;
+}
+
+.harperEtc p,
+article p,
+.maggieFlex p,
+.daisyFlex p {
+  line-height: 25px;
+}
+
+.harperEtc p {
+  margin-bottom: 0;
+}
+
+.maggieFlex,
+.daisyFlex {
+  padding: 5%;
+}
+
+.maggieFlex {
+  margin-bottom: 20px;
+}
+
+.maggiePic,
+.daisyPic {
+  margin-right: 3%;
+}
+
+.maggiePic {
+  width: 250px;
+}
+
+.daisyPic {
+  width: 150px;
+}
+
+aside {
+  width: 25%;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.asideFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recentPosts ul {
+  list-style-position: outside;
+  padding-left: 23px;
+  margin-bottom: 0;
+}
+
+.recentPosts ul li {
+  list-style-type: disc;
+  text-transform: none;
+  font-family: "Cabin", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 15px;
+  padding: 5px 10px;
+  letter-spacing: 0px;
+}
+
+.longPartFlex {
+  width: 55%;
+  margin-right: 10%;
+}
+
+.maggieFlex,
+.daisyFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.maggieFlex p,
+.daisyFlex p {
+  margin: 0;
+}
+
+.iconFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.iconFlexParent li a {
+  font-size: 1.5rem;
+  color: #227284;
+}
+
+.iconFlexParent li a:hover {
+  color: #171717;
+}
+
+.iconFlexParent li:first-child {
+  padding-left: 0;
+}
+
+.iconFlexParent li {
+  padding: 5px 12px;
+}
+
+.infoFormFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -81px;
+  padding-top: 50px;
+}
+
+.email {
+  margin: 10px 0 20px 0;
+}
+
+.email a {
+  color: #171717;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.contactInfoFlexParent {
+  background-color: white;
+  margin: 20px 0% 14% 10%;
+  padding: 25px 0 0 25px;
+  width: 30%;
+}
+
+.contactInfoFlexParent p {
+  line-height: 12px;
+}
+
+.contactForm {
+  width: 81%;
+  margin-left: 3%;
+}
+
+input#userName,
+input#userEmail,
+input#userMessage,
+input#userComment {
+  font-family: "Cabin", sans-serif;
+  border: none;
+}
+
+input#userName {
+  margin-right: 5px;
+}
+
+#page2 input#userName,
+#page2 input#userEmail {
+  padding: 20px 18% 20px 2%;
+  margin-top: 20px;
+  width: 49%;
+}
+
+#page2 input#userEmail {
+  margin-left: 4px;
+}
+
+#page2 input#userMessage,
+#page2 input#userComment {
+  margin-top: 10px;
+  padding: 20px 62% 200px 2%;
+  width: 100%;
+}
+
+#page2 button {
+  width: 100%;
+}
+
+#page2 button,
+#page3 button {
+  font-family: "Oswald", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+#page3 button {
+  width: 88%;
+}
+
+#page3 input#userName,
+#page3 input#userEmail {
+  padding: 20px 18% 20px 2%;
+  margin-top: 20px;
+}
+
+#page3 input#userMessage,
+#page3 input#userComment {
+  margin-top: 10px;
+  padding: 20px 62% 200px 2%;
+  width: 88%;
+}
+
+footer {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  color: #F6F6F6;
+  background-color: #171717;
+  width: 100%;
+}
+
+footer p {
+  padding: 5px 0;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  #page2 input#userEmail,
+  #page3 input#userEmail {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  #page2 input#userName,
+  #page2 input#userEmail {
+    width: 100%;
+  }
+  #page3 input#userName,
+  #page3 input#userEmail,
+  #page3 input#userMessage,
+  #page3 button {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1070px) {
+  .contactInfoFlexParent {
+    margin: 20px 0% 24% 5%;
+  }
+  .surfers {
+    width: 2600px;
+    margin-left: 6%;
+  }
+  .favouriteImage {
+    width: 2300px;
+    margin-right: 8%;
+  }
+}
+
+@media (max-width: 960px) {
+  .infoFormFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactInfoFlexParent {
+    width: 90%;
+    margin: 20px 0% 5% 5%;
+  }
+  .contactForm {
+    width: 90%;
+    margin: 0px 10% 0% 7%;
+  }
+  .surfers {
+    width: 2600px;
+    margin-left: 3%;
+    -webkit-box-shadow: 10px 40px 0px 4px #68b0c1, -149px 40px 0px 4px #68b0c1;
+            box-shadow: 10px 40px 0px 4px #68b0c1, -149px 40px 0px 4px #68b0c1;
+  }
+}
+
+@media (max-width: 900px) {
+  #page1 h1 {
+    font-size: 7rem;
+  }
+  .circleText {
+    top: 68px;
+    right: -9%;
+  }
+  .surfers,
+  .favouriteImage {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: 0;
+    width: 75%;
+  }
+  .travelFlexParent1,
+  .favouriteFlexParent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .travelFlexParent2,
+  .favouriteContentFlexParent {
+    margin: 30px 13%;
+  }
+  .favouriteContentFlexParent {
+    padding: 15% 0 0;
+    margin-top: 75px;
+  }
+  .favButton {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .journeyPhoto {
+    width: 70%;
+  }
+}
+
+@media (max-width: 800px) {
+  #page1 h1 {
+    font-size: 6rem;
+  }
+  .circleText {
+    top: 58px;
+    width: 33%;
+  }
+  .journeyPhoto {
+    display: none;
+  }
+  .journeyFlexParent2 {
+    width: 100%;
+    margin: 7% 13%;
+  }
+  .lessImportant {
+    display: none;
+  }
+  .galleryFlexParent {
+    margin: 0;
+    padding: 0;
+  }
+  .gallery {
+    margin: 0 6%;
+  }
+}
+
+@media (max-width: 665px) {
+  .harperFlexParent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .harperPhoto {
+    display: none;
+  }
+  .bannerPhoto {
+    margin-top: -55px;
+  }
+  .h1Text {
+    margin-top: -70px;
+  }
+  .whoIsHarper {
+    width: 90%;
+    margin: -5% 5% 10% 5%;
+    padding: 5%;
+  }
+  .flexParentPhotosAbout {
+    display: inline;
+  }
+  .information {
+    padding: 7%;
+  }
+  .space {
+    padding-top: 0;
+  }
+  .photosMiniSection p,
+  .aboutMiniSection p,
+  .blogMiniSection p,
+  .contactMiniSection p {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 4%;
+  }
+  .navWrapper {
+    margin-bottom: 0;
+  }
+  #page2 header,
+  #page3 header {
+    background-image: none;
+  }
+  #page2 h1,
+  #page3 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 3rem;
+  }
+  .colorGrey {
+    background-color: #F6F6F6;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5% 0;
+    text-align: center;
+  }
+  #page2 main {
+    margin-top: -350px;
+    padding-top: 30px;
+  }
+  .blogFlexParent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogFlexParent aside {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .blogFlexParent .longFlexPart {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  aside,
+  .longPartFlex {
+    width: 90%;
+    margin: 5%;
+  }
+  .recentPosts {
+    display: none;
+  }
+  .harperInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -50px;
+  }
+  .harperInfo,
+  .harperEtc {
+    padding: 5%;
+  }
+  .lessImportant {
+    display: inline;
+  }
+  .galleryFlexParent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gallery li {
+    padding: 0;
+    margin: 2% 10%;
+  }
+  .gallery ul li {
+    padding: 0;
+  }
+  .gallery {
+    margin: 6% 0;
+  }
+}
+
+@media (max-width: 400px) {
+  #page1 h1 {
+    font-size: 5rem;
+  }
+  .circleText {
+    top: 47px;
+  }
+}

@@ -1,0 +1,505 @@
+// *****Generally general stylings!*****
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: $primaryFont;
+}
+
+.mainWrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+// *******Generally Home Page stylings - mostly*******
+
+h3 {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: $black;
+}
+
+ul a:hover {
+    color: $white;
+}
+
+p {
+    font-family: $secondaryFont;
+    line-height: 32px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#whosHarper, 
+.information,
+.harpersJourney {
+    background-color: $white;
+}
+
+.information p {
+    line-height: 25px;
+}
+
+.harpersJourney {
+    margin-top: -20px;
+}
+
+
+.whoIsHarper {
+    width: 50%;
+    float: right;
+    margin: -10px 3% 90px 0;
+}
+
+.whoIsHarper button {
+    margin-top: 20px;
+}
+
+.bannerPhoto {
+    width: 100%;
+    margin-top: -81px;
+    display: block;
+    background-color: $white;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+button {
+    background-color: $pink;
+    border: none;
+    padding: 1% 4%;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-top: 15px;
+}
+
+.information {
+    padding: 0 50px 5% 50px;
+    margin-bottom: -40px;
+}
+
+.information a {
+    text-decoration: none;
+    color: $black;
+    font-size: 1.3rem;
+}
+
+.information i {
+    padding: 13px;
+    background-color: $lightBlue;
+    border-radius: 50%;
+}
+
+.flexParentPhotosAbout {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.photosMiniSection,
+.aboutMiniSection,
+.blogMiniSection,
+.contactMiniSection {
+    flex-basis: 47%;
+}
+
+.photosMiniSection p,
+.aboutMiniSection p,
+.blogMiniSection p,
+.contactMiniSection p {
+    padding-left: 13%;
+}
+
+.space {
+    padding-top: 30px;
+}
+
+.surfers {
+    width: 2000px;
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+    margin-left: 134px;
+    margin-bottom: 150px;
+    box-shadow: 10px 20px 0px 4px #68b0c1, -149px 20px 0px 4px #68b0c1;
+}
+
+.favourite {
+    margin-top: -135px;
+}
+
+.favouriteImage {
+    width: 2500px;
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+    box-shadow: 200px 88px 0px -64px rgba(185,221,231,1), 90px 88px 0px -64px rgba(185,221,231,1);
+    margin-right: 134px;
+} 
+
+.h3FlexParent {
+    display: flex;
+}
+
+.h3FlexParent h3 {
+    margin: 5px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+
+.harpersTravels h3,
+.favourite h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.harpersJourney h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.travelFlexParent1,
+.journeyFlexParent1 {
+    display: flex;
+}
+
+.travelFlexParent2,
+.journeyFlexParent2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.travelFlexParent2 {
+    margin: 75px 5%;
+}
+
+.travelFlexParent2 h3 {
+    margin-bottom: 0;
+}
+
+.travelFlexParent2 p,
+.favouriteContentFlexParent p {
+    line-height: 25px;
+}
+
+.travelFlexParent2 h3,
+.favouriteContentFlexParent h3 {
+    letter-spacing: 0.1rem;
+}
+
+.journeyFlexParent2 {
+    width: 70%;
+    margin: 50px 10% 50px 0;
+}
+
+.journeyPhoto {
+    width: 30%;
+    margin: 100px 10%;
+    box-shadow: 15px 15px 0px 0px rgba(34, 114, 132, 1);
+    display: flex;
+    align-self: flex-end;    
+}
+
+.favouriteFlexParent {
+    display: flex;
+}
+
+.favouriteContentFlexParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 10% 5% 5%;
+}
+
+.favButton {
+    align-self: flex-end;
+}
+
+
+.galleryFlexParent {
+    display: flex;
+    padding: 0;
+    margin: 0 6%;
+}
+
+.galleryFlexParent ul {
+    padding: 0;
+}
+
+.gallery ul li {
+    padding: 80px 2%;
+}
+
+
+// ********************(Generally) BLOG STYLES********************************
+
+#page2 main,
+#page3 main {
+    background-color: $white;
+}
+
+#page2 main {
+    margin-top: -266px;
+    padding-top: 80px;
+}
+
+#page2 h3,
+#page2 h4 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+
+#page2 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+#page2 h4 {
+    font-size: 1.25rem;
+}
+
+.blogFlexParent {
+    display: flex;
+}
+
+article {
+    margin-bottom: 5%;
+    padding: 3% 5% 10% 5%;
+}
+
+article,
+.guestBlogs {
+    border-bottom: 5px solid $darkBlue;
+}
+
+.harperInfo,
+.recentPosts,
+article,
+.maggieFlex,
+.daisyFlex {
+    background-color: white;
+}
+
+.harperInfo,
+.recentPosts {
+    padding: 10%;
+} 
+
+.recentPosts h4 {
+    margin-top: 0;
+}
+
+.harperInfo {
+    margin-bottom: 10%;
+}
+
+.harperEtc a {
+    text-decoration: none;
+    color: $darkBlue;
+}
+
+.harperEtc p,
+article p, 
+.maggieFlex p,
+.daisyFlex p {
+    line-height: 25px;
+}
+
+.harperEtc p {
+    margin-bottom: 0;
+}
+
+.maggieFlex,
+.daisyFlex {
+    padding: 5%;
+}
+
+.maggieFlex {
+    margin-bottom: 20px;
+}
+
+.maggiePic,
+.daisyPic {
+    margin-right: 3%;
+}
+
+.maggiePic {
+    width: 250px;
+}
+
+.daisyPic {
+    width: 150px;
+}
+
+aside {
+    width: 25%;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.asideFlexParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recentPosts ul {
+    list-style-position: outside;
+    padding-left: 23px;
+    margin-bottom: 0;
+}
+
+.recentPosts ul li {
+    list-style-type: disc;
+    text-transform: none;
+    font-family: $secondaryFont;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 15px;
+    padding: 5px 10px;
+    letter-spacing: 0px;
+}
+
+.longPartFlex {
+    width: 55%;
+    margin-right: 10%;
+}
+
+.maggieFlex,
+.daisyFlex {
+    display: flex;
+}
+
+.maggieFlex p,
+.daisyFlex p {
+    margin: 0;
+}
+
+// ***************(Generally) CONTACT STYLES (but also lots of BLOG styles in here, due to the form being on both pages and trying to use the same code for both)************
+
+.iconFlexParent {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.iconFlexParent li a {
+    font-size: 1.5rem;
+    color: $darkBlue;
+}
+
+.iconFlexParent li a:hover {
+    color: $black;
+} 
+
+
+.iconFlexParent li:first-child {
+    padding-left: 0;
+}
+
+.iconFlexParent li {
+    padding: 5px 12px;
+}
+
+.infoFormFlex {
+    display: flex;
+    margin-top: -81px;
+    padding-top: 50px;
+}
+
+.email {
+    margin: 10px 0 20px 0;
+}
+
+.email a {
+    color: $black;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.contactInfoFlexParent {
+    background-color: white;
+    margin: 20px 0% 14% 10%;
+    padding: 25px 0 0 25px;
+    width: 30%;
+}
+
+.contactInfoFlexParent p {
+    line-height: 12px;
+}
+
+.contactForm {
+    width: 81%;
+    margin-left: 3%;
+}
+
+input#userName,
+input#userEmail,
+input#userMessage,
+input#userComment {
+    font-family: $secondaryFont;
+    border: none;
+}
+
+input#userName {
+    margin-right: 5px;
+}
+
+#page2 input#userName,
+#page2 input#userEmail {
+    padding: 20px 18% 20px 2%;
+    margin-top: 20px;
+    width: 49%;
+}
+
+#page2 input#userEmail {
+margin-left: 4px;
+}
+
+#page2 input#userMessage, 
+#page2 input#userComment {
+    margin-top: 10px;
+    padding: 20px 62% 200px 2%;
+    width: 100%;
+}
+
+#page2 button {
+    width: 100%;
+}
+
+#page2 button,
+#page3 button {
+    font-family: $primaryFont;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+#page3 button {
+    width: 88%;
+}
+
+#page3 input#userName,
+#page3 input#userEmail {
+    padding: 20px 18% 20px 2%;
+    margin-top: 20px;
+}
+
+#page3 input#userMessage, 
+#page3 input#userComment {
+    margin-top: 10px;
+    padding: 20px 62% 200px 2%;
+    width: 88%;
+}

@@ -1,0 +1,296 @@
+// MEDIA QUERIES from biggest width to smallest
+// *************** 1200PX************************
+
+@media (max-width: 1200px) {
+    #page2 input#userEmail,
+    #page3 input#userEmail {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #page2 input#userName,
+    #page2 input#userEmail {
+        width: 100%;
+    }
+
+    #page3 input#userName,
+    #page3 input#userEmail,
+    #page3 input#userMessage,
+    #page3 button {
+        width: 95%;
+    }
+}
+
+
+// *******************1070px***********************
+
+@media (max-width: 1070px) {
+    .contactInfoFlexParent {
+        margin: 20px 0% 24% 5%;
+        }
+
+    .surfers {
+        width: 2600px;
+        margin-left: 6%;
+    }
+
+    .favouriteImage {
+        width: 2300px;
+        margin-right: 8%;
+    }
+}
+
+// ********************960px****************************
+
+@media (max-width: 960px) {
+    .infoFormFlex {
+        flex-direction: column;
+    }
+
+    .contactInfoFlexParent {
+        width: 90%;
+        margin: 20px 0% 5% 5%;
+    }
+
+    .contactForm {
+        width: 90%;
+        margin: 0px 10% 0% 7%;
+    }
+
+    .surfers {
+        width: 2600px;
+        margin-left: 3%;
+        box-shadow: 10px 40px 0px 4px #68b0c1, -149px 40px 0px 4px #68b0c1;
+    }
+}
+
+// *************************900px*******************
+
+@media (max-width: 900px) {
+    #page1 h1 {
+        font-size: 7rem;
+    }
+
+    .circleText {
+        top: 68px;
+        right: -9%;
+    }
+
+    .surfers,
+    .favouriteImage {
+        box-shadow: none;
+        align-self: center;
+        margin: 0;
+        width: 75%;
+    } 
+
+    .travelFlexParent1,
+    .favouriteFlexParent {
+        flex-direction: column;
+    }
+
+    .travelFlexParent2,
+    .favouriteContentFlexParent {
+        margin: 30px 13%;
+    }
+
+    .favouriteContentFlexParent {
+        padding: 15% 0 0;
+        margin-top: 75px;
+    }
+
+    .favButton {
+        align-self: flex-start;
+    }
+
+    .journeyPhoto {
+        width: 70%;
+    }
+}
+
+
+
+// ************************800px*******************
+
+@media (max-width: 800px) {
+    #page1 h1 {
+        font-size: 6rem;
+    }
+
+    .circleText {
+        top: 58px;
+        width: 33%;
+    }
+
+    .journeyPhoto {
+        display: none;
+    }
+
+    .journeyFlexParent2 {
+        width: 100%;
+        margin: 7% 13%;
+    }
+
+    .lessImportant {
+        display: none;
+    }
+
+    .galleryFlexParent {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery {
+        margin: 0 6%;
+    }
+}
+
+// ***********************665px************
+
+@media (max-width: 665px) {
+    .harperFlexParent {
+        justify-content: center;
+    }
+
+    .harperPhoto {
+        display: none;
+    }
+
+    .bannerPhoto {
+        margin-top: -55px;
+    }
+
+    .h1Text {
+        margin-top: -70px;
+    }
+
+    .whoIsHarper {
+        width: 90%;
+        margin: -5% 5% 10% 5%;
+        padding: 5%;
+    }
+
+    .flexParentPhotosAbout {
+        display: inline;
+    }
+
+    .information {
+        padding: 7%;
+    }
+
+    .space {
+        padding-top: 0;
+    }
+
+    .photosMiniSection p,
+    .aboutMiniSection p,
+    .blogMiniSection p,
+    .contactMiniSection p {
+        padding-bottom: 25px;
+    }
+}
+
+// ****************600px********************
+
+@media (max-width: 600px) {
+    nav ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    }
+
+    .navWrapper {
+        margin-bottom: 0;
+    }
+
+    #page2 header,
+    #page3 header {
+        background-image: none;
+    }
+
+    #page2 h1,
+    #page3 h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        font-size: 3rem;
+    }
+
+    .colorGrey {
+        background-color: $white;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 5% 0;
+        text-align: center;
+    }
+
+    #page2 main {
+        margin-top: -350px;
+        padding-top: 30px;
+    }
+
+    .blogFlexParent {
+        flex-direction: column;
+    }
+
+    .blogFlexParent aside {
+        order: 2
+    }
+
+    .blogFlexParent .longFlexPart {
+        order: 1;
+    }
+
+    aside,
+    .longPartFlex {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .recentPosts {
+        display: none;
+    }
+
+    .harperInfo {
+        display: flex;
+        margin-top: -50px;
+    }
+
+    .harperInfo,
+    .harperEtc {
+        padding: 5%;
+    }
+
+    .lessImportant {
+        display: inline;
+    }
+
+    .galleryFlexParent {
+        flex-direction: column;
+    } 
+
+    .gallery li {
+        padding: 0;
+        margin: 2% 10%;
+    }
+
+    .gallery ul li {
+        padding: 0;
+    }
+
+    .gallery {
+        margin: 6% 0;
+    }
+}
+
+// **********************400px****************
+
+@media (max-width: 400px) {
+    #page1 h1 {
+        font-size: 5rem;
+    }
+
+    .circleText {
+        top: 47px;
+    }
+}

@@ -1,0 +1,92 @@
+
+// **HOME HEADER**
+#page1 header {
+    background-color: $lightBlue;
+    background-repeat: no-repeat;
+}
+
+#page2 header {
+    background-image: url("../harper-assets/blog-image-1.jpg");
+    background-repeat: no-repeat;
+    height: 666px;
+}
+
+#page3 header {
+    background-image: url("../harper-assets/contact-image-1.jpg");
+    background-repeat: no-repeat;
+}
+
+ul li {
+    padding: 5px 25px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 29px;
+    letter-spacing: 1px;
+}
+
+// ***.skip-link is to hide the "skip to main content" link**
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: $white;
+    color: $black;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30%;
+}
+
+.navWrapper {
+    display: flex;
+    padding-bottom: 0px;
+    width: 100%;
+    background-color: $lightBlue;
+}
+
+.navWrapper li:nth-child(3) a {
+    font-size: 2rem;
+}
+
+.harperPhoto {
+    box-shadow: 15px 15px 0px 0px rgba(255,255,255,1);
+    width: 30%;
+    margin: 0 5% 0 10%;
+    display: flex;
+}
+
+.harperFlexParent {
+    display: flex;
+    background-color: $lightBlue;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 8rem;
+}
+
+.h1Text {
+    position: relative;
+}
+
+#page2 h1,
+#page3 h1 {
+    font-size: 4rem;
+    margin-top: 263px;
+    margin-left: 10%;
+}
+
+.circleText {
+    position: absolute;
+    top: 70px;
+    right: -11%;
+    width: 35%;
+}
